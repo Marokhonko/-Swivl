@@ -49,6 +49,10 @@ button {
   align-items: center;
 }
 
+.header-logo {
+  margin-top: 5px;
+}
+
 .action-btn {
   width: 64px;
   height: 64px;
@@ -561,6 +565,7 @@ input:checked + .slider:before {
   border-radius: 8px;
   display: none;
   opacity: 0;
+  z-index: 10;
   background: #fff;
   -webkit-transition: all .3s linear;
   -o-transition: all .3s linear;
