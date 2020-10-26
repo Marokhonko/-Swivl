@@ -463,7 +463,7 @@ input:checked + .slider:before {
 }
 
 .shared-via::before {
-  content: url("./../img/icons/icon_link.svg");
+  content: url("../img/icons/icon_link.svg");
   position: relative;
   top: 4px;
 }
